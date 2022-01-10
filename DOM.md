@@ -8,7 +8,7 @@
 
 <p align="center">HTML DOM Tree</p>
 
-<img title="" src="file:///C:/Users/audtj/Desktop/git/Front-end/DOM tree.jpg" alt="" data-align="center">
+<img title="" src="./DOM tree.jpg" alt="" data-align="center">
 
 영어로 쉽게 요약하면
 
