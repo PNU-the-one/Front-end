@@ -355,15 +355,15 @@ document.getElementById("myDiv2").addEventListener("click", function() {
 ```
 - `<html>`은 루트 노드이다.
 - `<html>`은 부모가 없다.
-- <html>은 <head>와 <body>의 부모 노드이다.
-- <head>는 <html>의 첫번째 자식 노드이다.
-- <body>는 <html>의 마지막 자식 노드이다.
-- <head>는 <title>이라는 자식 노드가 있다.
-- <title>은 "DOM Tutorial"이라는 자식 텍스트 노드가 있다.
-- <body>에는 2가지의 자식 노드(<h1>, <p>)가 있다.
-- <h1>에는 DOM Lesson 1이라는 자식 텍스트 노드가 있다.
-- <p>에는 Hello world라는 자식 텍스트 노드가 있다.
-- <h1>과 <p>는 형제 노드이다.
+- `<html>`은 `<head>`와 `<body>`의 부모 노드이다.
+- `<head>`는 `<html>`의 첫번째 자식 노드이다.
+- `<body>`는 `<html>`의 마지막 자식 노드이다.
+- `<head>`는 `<title>`이라는 자식 노드가 있다.
+- `<title>`은 "DOM Tutorial"이라는 자식 텍스트 노드가 있다.
+- `<body>`에는 2가지의 자식 노드(`<h1>`, `<p>`)가 있다.
+- `<h1>`에는 DOM Lesson 1이라는 자식 텍스트 노드가 있다.
+- `<p>`에는 Hello world라는 자식 텍스트 노드가 있다.
+- `<h1>`과 `<p>`는 형제 노드이다.
 
 ### 자식 노드 및 노드 값
 - <title id="demo">DOM Tutorial</title>
