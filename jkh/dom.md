@@ -353,8 +353,8 @@ document.getElementById("myDiv2").addEventListener("click", function() {
 
 </html>
 ```
-- <html>은 루트 노드이다.
-- <html>은 부모가 없다.
+- `<html>`은 루트 노드이다.
+- `<html>`은 부모가 없다.
 - <html>은 <head>와 <body>의 부모 노드이다.
 - <head>는 <html>의 첫번째 자식 노드이다.
 - <body>는 <html>의 마지막 자식 노드이다.
