@@ -30,3 +30,26 @@ document.getElementById("demo").innerHTML = "Hello World!";
 - 여기서 getElementByID는 메소드, innerHTML은 속성을 나타낸다.
 - getElementByID : HTML 요소에 액세스하는 가장 일반적인 방법으로 id를 받아오는 방법
 - innerHTML : 요소의 내용을 가져오는 가장 일반적인 방법. HTML 요소의 내용을 가져오거나 바꾸는데 유용
+
+## 자바스크립트 HTML DOM 문서
+- HTML DOM 문서 객체는 웹 페이지를 나타낸다.
+- 페이지 요소에 접근하려면 항상 문서 개체에 액세스하는 것으로 시작
+***
+### HTML 요소 찾기
+<br>![find](./img/find.PNG)<br>
+
+***
+### HTML 요소 변경
+<br>![change](./img/change.PNG)<br>
+
+***
+### HTML 요소 추가 및 삭제
+<br>![AD](./img/AD.PNG)<br>
+
+***
+### 이벤트 핸들러 추가
+<br>![event](./img/event.PNG)<br>
+
+***
+### HTML 개체 찾기
+<br><https://www.w3schools.com/js/js_htmldom_document.asp><br>
