@@ -1,0 +1,17 @@
+# Vanilla Javascript로 웹 컴포넌트 만들기
+- Vanilla Javascript : 플러그인이나, 라이브러리를 사용하지 않은 **순수 자바스크립트**
+## 상태 관리
+- 브라우저와 자바스크립트가 발전하는 과정에서 아예 브라우저(클라이언트) 단에서 렌더링을 하고, 서버에서는 REST API 혹은 GraphQL 같이 브라우저 렌더링에 필요한 데이터만 제공하는 형태로 기술이 변화
+- state를 기준으로 DOM을 렌더링 하는 형태로 발전
+- SSR(Server-Side Rendering)
+    1. JSP, PHP, ASP등 서버에서 HTML을 만들어서 클라이언트에 넘겨주는 것을 Server Side Rendering이라 부름
+    2. 이는 클라이언트단(브라우저)에서 굳이 데이터를 깊은 단계까지 정교하게 관리할 필요가 없었다.
+- CSR(Client-Side Rendering)
+    1. JS가 발전하면서 브라우저 단에서 모든 렌더링을 처리 하려는 시도가 계속되었고, React, Angular, Vue등의 프레임워크들이 등장
+    2. 브라우저 단에서 렌더링을 하기위해선, 렌더링에 필요한 상태를 정교하게 관리해야한다.(상태 관리)
+
+## 컴포넌트
+- Angular가 CSR의 시작
+- React는 컴포넌트 기반 개발의 시작
+- Vue는 Angular와 React의 장점을 모두 수용한 형태
+- 현 시점의 웹은 컴포넌트 단위로 설계되고 개발된다.(Proxy, Observer Pattern)
