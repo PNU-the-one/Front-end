@@ -31,16 +31,12 @@ export default class App extends Component {
     `;
   }
 
-  // mounted에서 자식 컴포넌트를 마운트 해줘야 한다.
   mounted () {
     const { filteredItems, addItem, deleteItem, toggleItem, filterItem } = this;
     const $itemAppender = this.$target.querySelector('[data-component="item-appender"]');
     const $items = this.$target.querySelector('[data-component="items"]');
     const $itemFilter = this.$target.querySelector('[data-component="item-filter"]');
 
-    // 하나의 객체에서 사용하는 메소드를 넘겨줄 bind를 사용하여 this를 변경하거나,
-    // 다음과 같이 새로운 함수를 만들어줘야 한다.
-    // ex) { addItem: contents => addItem(contents) }
     new ItemAppender($itemAppender, {
       addItem: addItem.bind(this)
     });
